@@ -58,7 +58,7 @@ const Box = styled.div`
   border: 1px solid black;
   display: grid;
   place-items: center;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 700;
   background-color: ${(props) => (props.isSelected ? "black" : "white")};
   color: ${(props) => (!props.isSelected ? "black" : "white")};
